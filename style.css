@@ -1,0 +1,147 @@
+:root{
+    --bckgrd: #e7eaf6;
+    --text: #a2a8d3;
+    --headers: #38598b;
+    --accent: #113f67;
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bckgrd);
+    color: var(--headers);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header{
+    background-color: var(--accent);
+    color: var(--bckgrd);
+    padding: 1%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.header nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header ul{
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.header ul li{
+    display: flex;
+    padding: 0 10px;
+}
+
+.header ul li:hover{
+    background-color: var(--bckgrd);
+}
+
+.header a{
+    color: var(--bckgrd);
+}
+
+.header a:hover{
+    color: var(--headers);
+}
+
+h1{
+    position: relative;
+    margin-left: 1%;
+    justify-content: flex-start;
+    width: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.pfp{
+    height: 200px;
+    margin: 0;
+    margin-bottom: 25px;
+    background-image: url(./assets/images/IMG_6868.JPG);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2{
+    border-bottom: 5px solid var(--headers);
+    margin-left: 20px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+main p{
+    text-indent: 1%;
+    margin-left: 2%;
+}
+
+#projects{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+#work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#work a{
+    color: var(--accent);
+    background-color: var(--text);
+}
+
+#work img{
+    border: 5px solid var(--text);
+}
+
+#contactme{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#contactme ul{
+    font-size: 20px;
+}
+
+#contactme ul li{
+    padding: 0 5px;
+}
+
+#contactme a{
+    color: var(--headers);
+}
