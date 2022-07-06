@@ -3,6 +3,8 @@
     --text: #a2a8d3;
     --headers: #38598b;
     --accent: #113f67;
+    --bckgrd2: #dcdcdc;
+    --card: #d3d3d3;
 }
 
 *{
@@ -81,7 +83,6 @@ ul li{
 .pfp{
     height: 200px;
     margin: 0;
-    margin-bottom: 25px;
     background-image: url(./assets/images/IMG_6868.JPG);
     background-size: cover;
     background-position: center;
@@ -99,6 +100,7 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    background-color: var(--bckgrd2);
 }
 
 main p{
@@ -106,9 +108,17 @@ main p{
     margin-left: 2%;
 }
 
+#AboutMe h2{
+    line-height: 200%;
+}
+
 #projects{
     margin-top: 100px;
     margin-bottom: 25px;
+}
+
+#projects h2{
+    line-height: 200%;
 }
 
 #work{
@@ -124,11 +134,25 @@ main p{
     background-color: var(--text);
 }
 
+#work a:hover{
+    background-color: var(--bckgrd);
+}
+
 #work img{
+    border-bottom: 5px solid var(--text);
+}
+
+#work .card{
     border: 5px solid var(--text);
+    background-color: var(--card);
+}
+
+#work h5{
+    color: var(--headers);
 }
 
 #contactme{
+    background-color: var(--bckgrd2);
     text-align: center;
     display: flex;
     align-items: center;
