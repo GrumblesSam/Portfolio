@@ -1,10 +1,10 @@
 :root{
-    --bckgrd: #e7eaf6;
-    --text: #a2a8d3;
-    --headers: #38598b;
-    --accent: #113f67;
-    --bckgrd2: #dcdcdc;
-    --card: #d3d3d3;
+    --a: #e7eaf6;
+    --b: #a2a8d3;
+    --c: #38598b;
+    --d: #113f67;
+    --e: #dcdcdc;
+    --f: #d3d3d3;
 }
 
 *{
@@ -13,8 +13,8 @@
 }
 
 body{
-    background-color: var(--bckgrd);
-    color: var(--headers);
+    background-color: var(--a);
+    color: var(--c);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -22,8 +22,8 @@ body{
 }
 
 .header{
-    background-color: var(--accent);
-    color: var(--bckgrd);
+    background-color: var(--d);
+    color: var(--a);
     padding: 1%;
     align-items: center;
     display: flex;
@@ -50,15 +50,15 @@ body{
 }
 
 .header ul li:hover{
-    background-color: var(--bckgrd);
+    background-color: var(--a);
 }
 
 .header a{
-    color: var(--bckgrd);
+    color: var(--a);
 }
 
 .header a:hover{
-    color: var(--headers);
+    color: var(--c);
 }
 
 h1{
@@ -83,7 +83,7 @@ ul li{
 .pfp{
     height: 200px;
     margin: 0;
-    background-image: url(./assets/images/IMG_6868.JPG);
+    background-image: url(../images/IMG_6868.JPG);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -91,7 +91,7 @@ ul li{
 }
 
 h2{
-    border-bottom: 5px solid var(--headers);
+    border-bottom: 5px solid var(--c);
     margin-left: 20px;
 }
 
@@ -100,7 +100,7 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    background-color: var(--bckgrd2);
+    background-color: var(--e);
 }
 
 main p{
@@ -130,29 +130,29 @@ main p{
 }
 
 #work a{
-    color: var(--accent);
-    background-color: var(--text);
+    color: var(--d);
+    background-color: var(--b);
 }
 
 #work a:hover{
-    background-color: var(--bckgrd);
+    background-color: var(--a);
 }
 
 #work img{
-    border-bottom: 5px solid var(--text);
+    border-bottom: 5px solid var(--b);
 }
 
 #work .card{
-    border: 5px solid var(--text);
-    background-color: var(--card);
+    border: 5px solid var(--b);
+    background-color: var(--f);
 }
 
 #work h5{
-    color: var(--headers);
+    color: var(--c);
 }
 
 #contactme{
-    background-color: var(--bckgrd2);
+    background-color: var(--e);
     text-align: center;
     display: flex;
     align-items: center;
@@ -167,5 +167,5 @@ main p{
 }
 
 #contactme a{
-    color: var(--headers);
+    color: var(--c);
 }
