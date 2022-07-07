@@ -42,12 +42,17 @@ h4{
 
 body section{
     border-bottom: 5px solid var(--c);
+    float: left;
 }
 
-aside{
+body aside{
     width: 30%;
     margin-left: 15px;
+    padding-left: 15px;
     float: right;
+    font-style: italic;
+    top: 0;
+    right: 0;
 }
 
 #header{
