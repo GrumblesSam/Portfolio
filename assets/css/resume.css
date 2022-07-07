@@ -44,6 +44,12 @@ body section{
     border-bottom: 5px solid var(--c);
 }
 
+aside{
+    width: 30%;
+    margin-left: 15px;
+    float: right;
+}
+
 #header{
     background-color: var(--d);
     color: var(--a);
